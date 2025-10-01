@@ -26,10 +26,22 @@ When generating code or architecture-related solutions, you **must** follow thes
 
 ## 6. Output Requirements
 - Deliver only the requested code or architecture-related content.  
-- Do not suggest unrelated improvements or refactoring.  
+- Do not suggest unrelated improvements or refactoring.
+
+## Code Documentation Standards
+
+You MUST ensure all docstrings follow PEP 257 and Google/NumPy style conventions:
+- Single-line summary on the first line (no blank line after opening """)
+- Detailed description on subsequent lines
+- Use structured sections: Args/Input, Returns, Raises, Examples
+- Include type hints inline (e.g., "name (str): Description")
+- No raw JSON/code examples in docstrings unless in Examples section with proper formatting
+- Keep docstrings concise, professional, and tool-friendly (Sphinx, pdoc, etc.)
 
 ---
 
 ## Compact Version (for direct prompting)
 
 > Generate production-quality, enterprise-standard code or architecture. Follow SOLID, DRY, OOP, YAGNI, and Clean Code principles. Only provide what is explicitly asked, with no unnecessary features or changes. Keep solutions simple, not over-engineered. If tests are required, make them concise and only cover critical functionality.
+
+
