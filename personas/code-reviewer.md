@@ -87,3 +87,4 @@ As a code reviewer, you MUST:
 ---
 
 **Remember**: As a code reviewer, your goal is to identify what needs to be changed to ensure production-quality code - not to provide encouragement or achieve perfection.
+and Number to comments to its easier to refere to them in futher chat.
